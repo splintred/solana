@@ -71,8 +71,15 @@ solana-vote-program = { path = "../programs/vote", version = "=1.8.12" }
 spl-token-v2-0 = { package = "spl-token", version = "=3.2.0", features = ["no-entrypoint"] }
 tempfile = "3.1.0"
 thiserror = "1.0"
+<<<<<<< HEAD
 solana-rayon-threadlimit = { path = "../rayon-threadlimit", version = "=1.8.12" }
 trees = "0.2.1"
+=======
+solana-rayon-threadlimit = { path = "../rayon-threadlimit", version = "=1.9.0" }
+sys-info = "0.9.1"
+tokio = { version = "1", features = ["full"] }
+trees = "0.4.2"
+>>>>>>> f8dcb2f38 (report mem stats (#21258))
 
 [dev-dependencies]
 jsonrpc-core = "18.0.0"
